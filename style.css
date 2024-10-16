@@ -1,0 +1,37 @@
+body{
+    font-family: Arial;
+}
+.todo-grid,
+.todo-inpute-grid{
+    display: grid;
+    grid-template-columns: 200px 150px 100px ;
+    column-gap: 10px;
+    row-gap: 10px;
+ 
+}
+.input-name{
+    font-size: medium;
+    padding: 7px;
+    border-radius: 5px;
+   
+}
+.delet-btn{
+    font-size: medium;
+    padding: 7px;
+    border-radius: 3px;
+    background-color: brown;
+    color: aliceblue;
+    cursor: pointer;
+    border: none;
+}
+.title{
+    font-size: larger;
+    font-weight: 700;
+    text-align: center;
+}
+.name{
+    background-color: green;
+    color: aliceblue;
+    cursor: pointer;
+    border: none;
+}
